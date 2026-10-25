@@ -101,7 +101,7 @@ def test_telemetry_optimal_conditions():
     assert "data_hash" in payload
     assert len(payload["data_hash"]) == 64  # SHA-256 hex length
 
-```
+```Bash 
 
 def test_telemetry_warning_conditions():
 
@@ -114,7 +114,7 @@ def test_telemetry_warning_conditions():
     assert payload["sensors"]["water_ph"] == 5.0
 
 ```
-
+------------ 
 
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal)](https://paypal.me/marcelcluj) For Succes !!!
 
