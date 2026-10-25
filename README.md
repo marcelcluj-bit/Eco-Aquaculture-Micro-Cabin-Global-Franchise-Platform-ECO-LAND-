@@ -114,3 +114,4 @@ def test_telemetry_warning_conditions():
     assert payload["sensors"]["water_ph"] == 5.0
 
 ```
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal)](https://paypal.me/marcelcluj) For Succes !!!
