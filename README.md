@@ -8,9 +8,11 @@ The **Eco-Aquaculture Global Franchise ** is an open-source architectural, econo
 [![Solidity](https://img.shields.io/badge/Solidity-%5EM0.8.20-orange.svg)](https://soliditylang.org/)
 
 ## 🌍 Project Overview
+
 The **Eco-Aquaculture Global Franchise Platform** is an open-source architectural, economic, and technical blueprint for sustainable land development. The model converts **1 Hectare ($10,000\ \text{m}^2$)** of land in potential pisciculture (aquaculture) zones into **20 standardized eco-parcels of 5 Ares ($500\ \text{m}^2$) each**, complete with off-grid modular wooden micro-cabins and integrated Web3 tokenization for global franchise scaling.
 
 ---
+
 
 ## 📐 Core Economic Model (Per 1-Hectare Site)
 * **Land Subdivision:** 1 Hectare split into 20 equal plots (5 Ares each).
@@ -21,7 +23,9 @@ The **Eco-Aquaculture Global Franchise Platform** is an open-source architectura
 
 ---
 
+
 ## 📁 Repository Structure
+
 ```text
 Eco-Aquaculture-Global-Franchise/
 │
@@ -42,6 +46,8 @@ Eco-Aquaculture-Global-Franchise/
 │
 ├── LICENSE                  # MIT Open-Source License
 └── README.md                # Project Entry Point
+```
+
 
 🚀 Getting Started & Testing
 1. Prerequisites
@@ -95,7 +101,10 @@ def test_telemetry_optimal_conditions():
     assert "data_hash" in payload
     assert len(payload["data_hash"]) == 64  # SHA-256 hex length
 
+```
+
 def test_telemetry_warning_conditions():
+
     """Test telemetry status trigger when water quality parameters fall outside optimal ranges."""
     node = GlobalNodeTelemetry(node_id="NODE-TEST-02", region="Europe-Pilot")
     # Low dissolved oxygen and extreme pH
@@ -103,3 +112,5 @@ def test_telemetry_warning_conditions():
     
     assert payload["status"] == "WARNING"
     assert payload["sensors"]["water_ph"] == 5.0
+
+```
