@@ -1,0 +1,2 @@
+# Eco-Aquaculture-Micro-Cabin-Global-Franchise-Platform-ECO-LAND-
+The **Eco-Aquaculture Global Franchise ** is an open-source architectural, economic, and technical blueprint for sustainable land development. The model converts **1 Hectare ($10,000\ \text{m}^2$)** of land in potential pisciculture (aquaculture) zones into **20 standardized eco-parcels of 5 Ares ($500\ \text{m}^2$) each**, complete-franchise
